@@ -1,0 +1,40 @@
+Operators and Built-in Functions
+
+Take a name as input from the user and print it.
+Take age as input and print its value and type.
+Take a number as input, convert it into integer, and print its type.
+Print the type of each variable:
+a = 10, b = 5.5, c = "Python", d = True
+Print the result of the following: 
+Check whether "a" exists in the string "Python".
+Check whether "Py" exists in "Python".
+
+⸻
+
+Observe 
+a=10
+b=10
+print(a is b)
+
+Understand the difference between the following:
+ is and ==
+ Is not and !=
+  
+Check identity for strings:
+s1 = "Python"
+s2 = "Python"
+print(s1 is s2)
+
+Check whether two variables point to the same object.
+a = input("Enter value: ")
+b = a
+print(a is b)
+
+⸻
+
+Think about it:
+    
+Difference between == and is
+Why input() always returns a string
+
+

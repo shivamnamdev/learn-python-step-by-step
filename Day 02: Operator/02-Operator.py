@@ -1,19 +1,19 @@
-# # Operator: To perform operation between 2 or more that 2 variable/Constant
+# Operator: To perform operation between 2 or more that 2 variable/Constant
 
-# # 1. Arithmetic Operator
-# # 2. Logical Operator
-# # 3. Comparitive Operator
-# # 4. Membership Operator
-# # 5. identity Operator
+# 1. Arithmetic Operator
+# 2. Logical Operator
+# 3. Comparitive Operator
+# 4. Membership Operator
+# 5. identity Operator
 
-# # 1. Arithmetic Operator
+# 1. Arithmetic Operator
 
-# # + - * / // ** %
+# + - * / // ** %
 
-a = 2
-b = 4
-c = 6
-d = 4
+# a = 2
+# b = 4
+# c = 6
+# d = 4
 # print(a + b) # 6
 # print(a - b) # -2
 # print(a * b) # 8
@@ -21,11 +21,18 @@ d = 4
 # print(a // b) # only decimal 0
 # print(a ** b) # power 16
 # print(a % b) # remainder 2
-print(c//a*b+d-a) # 14
-10
-14
-40
+# print(c//a*b-d+a) # 14
+# 10
+# 14
+# 40
 
+# Two more operators works for the string as well
+# + *
+# print("This is" + "my life")
+# print("Python Session"* 3)
+print(2 + 2) #4
+print('2'+ '2') # 22
+print(2 + '2') # TypeError
 
 # 2. Logical Operator
 # or - and - not
@@ -56,7 +63,7 @@ b = False
 
 # String
 # False -> ""
-# True -> "<anything>"
+# True -> "<anytahing>"
 
 
 # print("" or "No") # True
@@ -85,3 +92,15 @@ b = False
 
 
 # print(("None" and None) or 0)
+
+# print('A' in "amit") # False
+# print('N' not in "nishchal") # True
+# print('3' in '3') # True
+# print(3 in 35) TypeError: fail
+
+# Identity Operator
+# a = 5
+# # print(a is 6)
+# print(type(a) is int)
+# print((a is 6) is False)
+

@@ -1,6 +1,6 @@
 import keyword
 
-
+# Text should be wrapped between ' or "
 print("Welcome to the Session")
 print(22)
 print(22.5)
@@ -9,13 +9,13 @@ print(22.5)
 print(keyword.kwlist)
 
 # Data types:
-name = "Poonam" # text - string
-rollno = 10.    # number - Integer
-marks = 14.2    # decimal - Float
-Result = True   # Boolean - boolean
+name = "Poonam" # text - string - iteratable
+rollno = 10    # number - Integer - non iteratable
+marks = 14.0    # decimal - Float - non-iteratable
+Result = True   # Boolean - boolean - non-iteratable
 
 
-#Collections
+#Collections - Iteratable
 lists  = [1,2,4,7,4]
 sets = {1,6,3,2}
 tuples = (1,7,3,"sddgdg")
@@ -53,3 +53,4 @@ print(a, b)
 
 a, b, c = 10, 20, 23
 print(a,b,c)
+
