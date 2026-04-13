@@ -108,6 +108,3 @@ if name in "python":
 else:
     print("not present")
     
-    
-print(name in "python")    
-    
