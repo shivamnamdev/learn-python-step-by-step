@@ -18,7 +18,7 @@
 #   do this
 #   do this
 # line outside the if block
-
+  
 
 if False:
     print("This statement should run")
@@ -81,11 +81,33 @@ else:
 mark = 75
 if mark > 75:
     print("distinction")
-elif mark > 45:
-    print("div2")
 elif mark > 60:
     print("div1")
-elif mark > 75:
-    print("distinction")        
+elif mark > 45:
+    print("div2")
+elif mark > 33:
+    print("div3")        
 else:
     print("you are failed")               
+    
+    
+    
+# Take a string from user and check whether it is present it in 
+# "python" string, if yes, then print "present" otherwise print 
+# "not present" 
+
+# Algorithm
+# 1. take input from user
+# 2. check if input is in "python" string
+# 3.     if yes -> print "present"
+# 4. otherwise -> print "not present"
+
+name = input()
+if name in "python":
+    print("present")
+else:
+    print("not present")
+    
+    
+print(name in "python")    
+    

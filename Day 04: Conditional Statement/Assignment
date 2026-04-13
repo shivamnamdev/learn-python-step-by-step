@@ -1,0 +1,74 @@
+Take a number from the user.
+If the number is greater than 0, print “Positive number”.
+Take age as input.
+
+If age is 18 or more, print “Eligible to vote”.
+Take a number and check if it is exactly equal to 10.
+Take a number from user.
+
+If number is even → print "Even number"
+Else → print "Odd number" (use with % operator)
+Take two numbers from user.
+
+If first number is greater than second, print "First is greater"
+Else print "Second is greater or equal"
+Take marks from user.
+
+If marks are greater than or equal to 40, print "Pass"
+Else print "Fail"
+Take age from user.
+
+If age is between 18 and 60, print "Working age"
+Else print "Not working age"
+Take a number.
+
+If number is less than 0 OR greater than 100, print "Invalid number"
+Else print "Valid number"
+Take a value from user.
+
+If value is NOT empty, print "Input received"
+Else print "No input given"
+Take a character from user.
+
+If character exists in "aeiou", print "Vowel"
+Else print "Not a vowel"
+Take a word from user.
+
+If "py" exists in the word, print "Python related"
+Else print "Not Python related"
+Take a digit as input.
+
+If digit exists in "0123456789", print "Valid digit"
+Else print "Invalid digit"
+
+Create a variable:
+is_active = True
+If is_active is True, print "System is active"
+
+Take age as input.
+If (age > 18) is True, print "Adult"
+Else print "Minor”
+
+Create two variables:
+a = True
+b = True
+If a is b, print "Same identity"
+Else print "Different identity"
+
+Take marks from user:
+If marks ≥ 90 → "Grade A"
+Else if marks ≥ 75 → "Grade B"
+Else if marks ≥ 50 → "Grade C"
+Else → "Fail"
+
+Take age from user:
+If age < 13 → "Child"
+Else if age < 20 → "Teenager"
+Else if age < 60 → "Adult"
+Else → "Senior Citizen"
+
+CHALLENGE
+Take input from user.
+If input is a digit → "Number"
+Else if input exists in "aeiou" → "Vowel"
+Else → "Consonant or string"
