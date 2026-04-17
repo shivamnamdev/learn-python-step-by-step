@@ -21,7 +21,7 @@
 # 1. print -> start=1 - end=20 -> a = 1, <=20
 # 2. While end <=20 -> while a <= 20
 # 3. print only when iteration is at odd -> if statement a%2 != 0
-# 4. incrementor should be outside the condition -> a += 1 
+# 4. increment or should be outside the condition -> a += 1 
 
 
 a = 1
