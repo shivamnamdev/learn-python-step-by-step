@@ -1,0 +1,91 @@
+1️⃣ Count Even and Odd Numbers
+Take 10 numbers from the user using a loop.
+At the end print:
+Total even numbers
+
+
+Total odd numbers
+
+
+
+2️⃣ Sum of Only Positive Numbers
+Take 7 numbers from user.
+Add only the positive numbers.
+Ignore negative numbers.
+
+3️⃣ Find Largest Number (Without max())
+Take 5 numbers from the user using a loop.
+Find the largest number manually.
+(Hint: Use a variable to store maximum.)
+
+4️⃣ Count Vowels and Consonants
+Take a word from user.
+Using a loop:
+Count vowels
+
+
+Count consonants
+
+
+Ignore digits and special characters.
+
+5️⃣ Print Prime Numbers from 1 to N
+Take a number N.
+Print all prime numbers between 1 and N.
+
+6️⃣ Number Guess Analysis
+Ask user to enter 5 numbers.
+Count how many numbers are:
+Greater than 50
+Less than or equal to 50
+
+
+
+7️⃣ Check Armstrong Number (Basic Version)
+Take a 3-digit number.
+Check whether it is an Armstrong number.
+Example:
+153 → 1³ + 5³ + 3³ = 153
+
+8️⃣ Reverse a Number Using Loop
+Take a number as input.
+Reverse it using a loop.
+Example:
+Input: 1234
+Output: 4321
+
+9️⃣ FizzBuzz 
+Print numbers from 1 to 30.
+If divisible by 3 → print “Fizz”
+
+
+If divisible by 5 → print “Buzz”
+
+
+If divisible by both → print “FizzBuzz”
+
+
+Else print number
+
+
+
+🔟 Password Strength Check (Advanced Thinking)
+Take a password from user.
+Check whether it contains:
+at least one digit
+
+
+at least one vowel
+
+
+at least one uppercase letter
+
+
+Print:
+Strong password (if all conditions met)
+
+
+Weak password (otherwise)
+
+
+
