@@ -1,0 +1,38 @@
+Basics For Loop Programs:
+
+Print numbers from 1 to 10
+Print numbers from 10 to 1
+Print your name 5 times
+Print even numbers from 1 to 20
+Print odd numbers from 1 to 20
+
+Level 1: Numbers
+
+Print square of numbers from 1 to 10
+Print cube of numbers from 1 to 5
+Print multiplication table of 5 (5 * 1 = 5, 5 * 2 = 10)
+Print numbers divisible by 3 between 1 to 30
+Print sum of numbers from 1 to 10
+
+Level 2: String
+
+Print each character of a word
+Count number of characters in a word
+Count vowels in a word
+
+Level 3: Pattern
+
+Print stars 5 times
+Print 5 stars in one line
+Print increasing stars pattern
+	*
+**
+***
+****
+*****
+
+Level 4: Additional
+
+Count how many numbers between 1 to 50 are divisible by 5
+Find largest number from 5 inputs
+

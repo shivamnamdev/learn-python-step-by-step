@@ -22,7 +22,7 @@ for number in range(1,6):
   
 # TypeError: 'int' object is not iterable    
 # a = 10    
-# for integer in a:
+# for integer in a:f
 #     print(integer)  
 
 alpha = "abcde"
@@ -50,8 +50,8 @@ for i in range(10,0,-1):
 #     print(i)      
 
 for i in range(1,4):
-    for j in range(1,4):
-        for k in range(1,4):
+    for j in range(4,7):
+        for k in range(7,10):
             print(i,j,k)
         
 # 1 1 ----> i=1, j=1
