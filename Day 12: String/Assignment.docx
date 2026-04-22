@@ -1,0 +1,44 @@
+🟢 Level 1: Basic Indexing Practice
+Use:
+text = "Programming"
+Print the first character.
+Print the last character using negative indexing.
+Print the 4th character.
+Print the second last character.
+Take input from user and print only the last character.
+
+🟡 Level 2: Basic Slicing (Start : End)
+Use:
+word = "PythonDeveloper"
+Print "Python" using slicing.
+Print "Developer" using slicing.
+Print "thon".
+Print first 5 characters using slicing shortcut.
+Print last 4 characters using negative slicing.
+
+🟠 Level 3: Step Slicing (Important)
+Use:
+data = "ABCDEFGHIJK"
+Print every second character.
+Print every third character.
+Print characters from index 1 to 8 with step 2.
+Print entire string using slicing only.
+Print the string in reverse order.
+
+🔵 Level 4: Reverse Logic Thinking
+Use:
+text = "LearningPython"
+Print  "Python"  using negative slicing only.
+Print "gninraeL" using slicing.
+Print "nohtyP" using slicing.
+Print characters from index 10 to 4 in reverse order.
+Without using [::-1], print the entire string in reverse.
+
+🔥 Bonus Thinking Questions (Very Important)
+Use:
+sentence = "Today is Day-10"
+Print "Day-10" using slicing.
+Print "Today" in reverse using slicing only.
+Print "is" using slicing.
+Print every second character from entire sentence.
+Predict the output before running: print(sentence[-1:-6:-1])
