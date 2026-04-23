@@ -53,3 +53,38 @@ print(var)
 
 var = "Hakuna Matata"
 # a -> o
+
+# Count Uppercase & Lowercase
+# Print:
+# Number of uppercase letters
+
+
+# Number of lowercase letters
+
+
+# me ek string lunga
+# string ka ek ek character uthaunga
+# usko check krunga ki vo upper hai?
+# agr vo upr hai to count krunga
+# otherwise check krunga ki vo lower hai?
+# agr vo lower hoga to uska count krunga
+# or agr vo inme se kuch bhi nhi hai
+# to aage bdh jaunga
+# end me dono number bta dunga
+
+
+name = "Python Session"
+uppercount = 0
+lowercount = 0
+# name = input()
+for char in name:
+    if char.isupper():
+       uppercount = uppercount + 1
+    elif char.islower():
+       lowercount = lowercount + 1 
+    else:
+        continue   
+    
+print("Upper :", uppercount)
+print("Lower: ", lowercount)    
+

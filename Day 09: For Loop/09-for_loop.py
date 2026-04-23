@@ -50,8 +50,8 @@ for i in range(10,0,-1):
 #     print(i)      
 
 for i in range(1,4):
-    for j in range(4,7):
-        for k in range(7,10):
+    for j in range(1,4):
+        for k in range(1,4):
             print(i,j,k)
         
 # 1 1 ----> i=1, j=1
@@ -60,5 +60,7 @@ for i in range(1,4):
 # 2 2 ----> i=2, j=2
 
 
-  
-    
+for i in range(0,2):
+    for j in range(0,2):  
+        for k in range(0,2): 
+            print(i,j,k)
