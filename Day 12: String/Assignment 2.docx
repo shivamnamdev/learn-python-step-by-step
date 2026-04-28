@@ -30,8 +30,15 @@ Output: e u a i o
 7️⃣ Print Characters at Even Index
 Use loop + condition.
 
+letter = "string"
+for i in range(len(letter))
+    if i % 2 == 0:
+        print(letter[i])
+
 8️⃣ Reverse String Without Slicing
 Use loop only.
+
+name = "pradyumna"
 
 9️⃣ Check Palindrome
 Input: "madam"

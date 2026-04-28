@@ -88,3 +88,27 @@ for char in name:
 print("Upper :", uppercount)
 print("Lower: ", lowercount)    
 
+
+name = "pradyumna"
+mem = ""
+for i in name:
+    mem = i + mem
+print(mem)    
+if name == mem:
+    print("Palindrome")
+else:
+    print("not a pallindrome")     
+    
+    
+    
+# Find First Non-Repeating Character
+# Input: "aabbcdd"
+# Output: c
+
+# me ek variable me store krunga
+# ek ek krke string ko parse krenge
+# 
+
+
+# input = "aabbcdd"
+# extra = ""
