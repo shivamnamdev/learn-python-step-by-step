@@ -75,6 +75,11 @@ print(mylist) # ['apple', 'dragon fruit', 'cherry', 'mango', 'melon', 'orange']
 
 
 #extend
+list1 = ["a", "b", "c"]
+list2 = [1,2,3]
+list1.extend(list2)
+print(list1)
+
 
 # Example 9: Remove element
 # using pop
@@ -83,3 +88,45 @@ mylist.pop() #['apple', 'cherry', 'mango']
 print(mylist) 
 print(mylist.pop(1))#cherry
 print(mylist) #['apple', 'mango']
+
+# using del
+mylist = ["apple", "cherry", "mango", "melon"]
+del mylist[1]
+print(mylist)
+
+# using clear
+mylist.clear()
+print(mylist)
+
+
+# Example 10: copying a list
+mylist = ["apple", "cherry", "mango", "melon"]
+mylist4 = list(mylist)
+print(mylist4)
+
+#copy()
+mylist2 = mylist.copy()
+print(mylist2)
+
+# Example 11: combining or joining the lists
+list1 = ["a", "b", "c"]
+list2 = [1,2,3]
+
+# Concatenation using + operator
+list3 = list1 + list2
+print(list3)
+
+# using append function
+for i in list2:
+    list1.append(i)
+    
+print(list1)   
+
+
+
+#extend
+list1 = ["a", "b", "c"]
+list2 = [1,2,3]
+list1.extend(list2)
+print(list1)
+ 
