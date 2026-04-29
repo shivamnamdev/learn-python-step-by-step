@@ -1,0 +1,71 @@
+1️⃣ Print Tuple Elements
+Create a tuple and print it.
+students = ("Rahul","Aman","Neha","Priya")
+practice:
+Print the tuple
+
+
+Print the type
+
+
+2️⃣ Access First and Last Element
+Using the tuple below:
+fruits = ("apple","banana","mango","grapes","orange")
+Print:
+First element
+
+
+Last element
+
+
+3️⃣ Tuple Slicing
+Using the same tuple:
+fruits = ("apple","banana","mango","grapes","orange")
+Print:
+First 3 fruits
+
+
+Last 2 fruits
+
+
+4️⃣ Count Occurrence
+Find how many times 2 appears in the tuple.
+nums = (1,2,3,2,4,2,5,2)
+
+5️⃣ Find Index
+Find the index position of value 40.
+numbers = (10,20,30,40,50)
+
+6️⃣ Loop Through Tuple
+Print all values using a for loop.
+data = (5,10,15,20,25)
+
+7️⃣ Print Tuple Without Loop Line Break
+Print tuple elements in one line using loop.
+nums = (1,2,3,4,5)
+
+8️⃣ Convert Tuple → List → Tuple
+Using the tuple below:
+nums = (10,20,30)
+Steps:
+1 Convert tuple into list
+2 Change 30 → 40
+3 Convert it back to tuple
+4 Print final tuple
+
+
+
+
+9️⃣ Check if Value Exists in Tuple
+Check whether “London” exists in the tuple.
+students = ("Pune","Delhi","Citadel","London")
+Expected output:
+Found OR Not Found
+
+🔟 Count Total Students
+Using this tuple:
+class_for_python = ("priyank","mahak","shubham","prakshal","Dharvi","ekta","leena","falguni","nishcal")
+
+
+
+
