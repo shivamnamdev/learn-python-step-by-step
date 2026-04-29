@@ -1,0 +1,97 @@
+The 4-Step Thinking Method 
+Every program should go through 4 stages.
+Understand the problem
+Write the logic in simple language
+Convert logic into step-by-step actions
+Convert steps into Python
+
+Example 1 — Find Duplicate Values
+Step 1: Understand the Problem
+Input list: [1,5,2,8,6,4,3,9,5,9,3]
+Problem: Find numbers that appear more than once.
+
+Step 2: Write Logic in Human Language
+Write something like:
+Logic:
+1. Take one number from the list
+2. Check if the same number exists later in the list
+3. If yes, it is a duplicate
+4. But check if we already stored it
+5. If not stored, add it to duplicate list
+
+
+
+
+Step 3: Convert to Steps
+Now convert this to algorithm style:
+Create empty duplicate list 
+Loop through the list
+    Check if current value exists in remaining list
+    If yes AND not already in duplicate list
+        Add it to duplicate list
+
+Step 4: Convert to Code
+Now code becomes very easy.
+duplicate = []  # Create empty duplicate list 
+for i in range(len(num)): # Loop through the list
+#Check if current value exists in remaining list
+    If yes AND not already in duplicate list
+    if num[i] in num[i+1:] and num[i] not in duplicate:
+        duplicate.append(num[i]) #Add it to duplicate list
+
+
+
+
+
+
+
+
+
+
+
+Example 2 — Second Smallest Value
+Step 1: Problem
+Find second smallest number.
+Step 2: Human Logic
+1. Assume first number is smallest
+2. Assume second number is second smallest
+3. Compare each new number
+4. If new number smaller than smallest:
+       smallest becomes second smallest
+       new number becomes smallest
+5. Else if new number smaller than second smallest
+       update second smallest
+Step 3: Algorithm
+Set smallest = first element
+Set second_smallest = second element
+Loop through each number
+    If number < smallest
+        second_smallest = smallest
+        smallest = number
+    Else if number < second_smallest
+        second_smallest = number
+Step 4: Code
+Now code is obvious.
+VERY IMPORTANT TRICK TO START
+ fill this template.
+Problem:
+Input:
+Goal:
+Logic in English:
+Step 1:
+Step 2:
+Step 3:
+Step 4:
+Then write Python code.
+One Small Exercise You Should Start 
+Find even numbers in list
+
+Example answer:
+submit only logic first.
+1. Take each number from list
+2. Check if number divisible by 2
+3. If yes store it
+4. Print stored numbers
+Then coding.
+
+
