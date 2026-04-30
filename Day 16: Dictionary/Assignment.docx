@@ -1,0 +1,119 @@
+Level 1 — Basic Dictionary Understanding
+1️⃣ Create a dictionary for a car
+Keys:
+brand
+model
+year
+color
+Print:
+whole dictionary
+
+
+only brand
+
+
+only year
+
+
+2️⃣ Update a dictionary value
+person = {
+"name":"Rahul",
+"age":25,
+"city":"Pune"
+}
+Tasks:
+Change city to "Mumbai"
+
+
+Add new key "profession":"Engineer"
+
+
+Print updated dictionary
+
+
+
+
+3️⃣ Delete values
+data = {
+"a":10,
+"b":20,
+"c":30
+}
+Tasks:
+Remove key "b"
+
+
+Print remaining dictionary
+
+
+🟡 Level 2 — Working with keys(), values(), items()
+4️⃣ Print all keys
+student = {
+"name":"Priya",
+"age":21,
+"course":"Python"
+}
+Print only keys.
+Expected output:
+name
+age
+course
+
+
+5️⃣ Print all values
+Using the same dictionary, print only values.
+Expected output:
+Priya
+21
+Python
+
+6️⃣ Print both key and value
+Expected output:
+name Priya
+age 21
+course Python
+
+Level 3 — Logic Building
+7️⃣ Count total subjects
+marks = {
+"science":18,
+"maths":20,
+"english":15,
+"history":17
+}
+Print how many subjects are present.
+
+8️⃣ Find subject with highest marks
+Output should be:
+maths
+9️⃣ Print subjects with marks greater than 17
+Expected output:
+science
+maths
+Level 4 — Nested Dictionary (Important)
+🔟 Total marks per subject
+students_marks = {
+"science": {"internals": 75,"externals":10},
+"maths": {"internals": 65,"externals":11}
+}
+Print:
+science 85
+maths 76
+1️⃣1️⃣ Find subject with highest total marks
+Expected output:
+science
+1️⃣2️⃣ Safe access using 
+.get()
+Print "internals" marks of science using .get().
+Then try accessing a wrong key and print default message: 
+Bonus Thinking Question (Very Good)
+1️⃣3️⃣ Count how many subjects exist
+Without using len().
+
+
+First write logic like:
+Step 1 → iterate dictionary
+Step 2 → access key/value
+Step 3 → apply condition
+Step 4 → print result
+
