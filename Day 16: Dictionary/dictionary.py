@@ -116,3 +116,21 @@ student = {
     # {"key": 3}: False TypeError: unhashable type: 'dict'
 }
 print(student)
+
+
+marks = {
+    "science": 75,
+    "maths": 81,
+    "english": 78
+}
+maxvalue = 0
+for key,value in marks.items():
+    if maxvalue == 0:
+        maxvalue = value
+        maxkey = key
+    elif value > maxvalue:
+        maxkey = key
+        maxvalue = value 
+    else:
+        continue     
+print(maxkey) 
