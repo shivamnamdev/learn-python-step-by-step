@@ -121,7 +121,7 @@ print(student)
 marks = {
     "science": 75,
     "maths": 81,
-    "english": 78
+    "english": 91
 }
 maxvalue = 0
 for key,value in marks.items():
@@ -134,3 +134,58 @@ for key,value in marks.items():
     else:
         continue     
 print(maxkey) 
+
+print(marks['science'])
+
+marks = {
+    "Science": {
+        "internals": 80,
+        "externals": 10
+    },
+    "Maths": {
+        "internals": 75,
+        "externals":18
+    }
+}
+
+# Give me the subject which has more marks:
+sum = 0
+totalmarks = {}
+for k,v in marks.items():
+    for j,x in marks[k].items():
+        sum = sum + x
+    totalmarks[k] = sum  
+    sum = 0 
+    
+# print(totalmarks)     
+maxvalue = 0
+for key,value in totalmarks.items():
+    if maxvalue == 0:
+        maxvalue = value
+        maxkey = key
+    elif value > maxvalue:
+        maxkey = key
+        maxvalue = value 
+    else:
+        continue     
+print(maxkey) 
+
+# Find out the subject which has highest marks in internals
+
+max_score = 0
+max_subject = None
+for subject, scores in marks.items():
+    if scores['internals'] > max_score:
+        max_score = scores['internals']
+        max_subject = subject
+
+print(max_subject)   
+
+l = [80,75]
+max_scores = 0
+
+for scores in l:
+    if scores > max_scores:
+        max_scores = scores
+
+print(max_scores)
