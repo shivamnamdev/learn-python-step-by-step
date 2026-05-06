@@ -45,8 +45,6 @@ print("Shivam Namdev " + str(30))
 
 print(f"Shivam Namdev is 30 years old")
 
----
-
 ## 6. Remove quotes and observe error
 
 ### ❌ Code:
@@ -57,7 +55,6 @@ print(Shivam)
 
 NameError: name 'Shivam' is not defined
 
----
 
 ## 🧠 Why this happens
 
