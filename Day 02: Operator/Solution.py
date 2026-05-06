@@ -202,13 +202,3 @@ True
 # * `and` → returns **last value if all True**
 # * `not` → flips True ↔ False
 
-# ---
-
-# If you want next level:
-# I can give you:
-
-# * Trick questions (where most people fail)
-# * Real interview MCQs
-# * Mini test for your students
-
-# Just say **“test me”** 🚀
