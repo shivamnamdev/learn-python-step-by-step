@@ -1,6 +1,8 @@
 📝 📌 Assignment – Operators (Day Practice)
 
-⸻
+“Don’t just write answers — explain your logic. Even if wrong, attempt it.”
+
+---
 
 1️⃣ Arithmetic + Precedence
 
@@ -14,7 +16,7 @@ print(a + b * c - a // b)
 	•	What is the output?
 	•	Explain step-by-step (which operation happens first?)
 
-⸻
+---
 
 2️⃣ Arithmetic (Mix Operations)
 
@@ -27,7 +29,7 @@ print(x % y + x // y * 2)
 	•	Find the output
 	•	Explain meaning of % and //
 
-⸻
+---
 
 3️⃣ Logical Operator (Truthy/Falsy)
 
@@ -38,7 +40,7 @@ print("Hello" and "World")
 	•	What will be the output?
 	•	Why is string returned instead of True/False?
 
-⸻
+---
 
 4️⃣ Comparative + Logical
 
@@ -52,7 +54,7 @@ print(a == c and b > a or b == c)
 	•	What is the output?
 	•	Which condition runs first?
 
-⸻
+---
 
 5️⃣ Logical + not (Concept clarity)
 
@@ -64,6 +66,4 @@ print(not "")
 	•	Explain why outputs are different
 	•	What is considered True and False?
 
-⸻
-
-“Don’t just write answers — explain your logic. Even if wrong, attempt it.”
+---
