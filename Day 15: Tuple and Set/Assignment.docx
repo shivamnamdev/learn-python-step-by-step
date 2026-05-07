@@ -2,48 +2,42 @@
 Create a tuple and print it.
 students = ("Rahul","Aman","Neha","Priya")
 practice:
-Print the tuple
-
-
-Print the type
-
+1. Print the tuple
+2.Print the type
+---
 
 2️⃣ Access First and Last Element
 Using the tuple below:
 fruits = ("apple","banana","mango","grapes","orange")
 Print:
 First element
-
-
 Last element
-
+---
 
 3️⃣ Tuple Slicing
 Using the same tuple:
 fruits = ("apple","banana","mango","grapes","orange")
 Print:
 First 3 fruits
-
-
 Last 2 fruits
-
+---
 
 4️⃣ Count Occurrence
 Find how many times 2 appears in the tuple.
 nums = (1,2,3,2,4,2,5,2)
-
+---
 5️⃣ Find Index
 Find the index position of value 40.
 numbers = (10,20,30,40,50)
-
+---
 6️⃣ Loop Through Tuple
 Print all values using a for loop.
 data = (5,10,15,20,25)
-
+---
 7️⃣ Print Tuple Without Loop Line Break
 Print tuple elements in one line using loop.
 nums = (1,2,3,4,5)
-
+---
 8️⃣ Convert Tuple → List → Tuple
 Using the tuple below:
 nums = (10,20,30)
@@ -52,7 +46,7 @@ Steps:
 2 Change 30 → 40
 3 Convert it back to tuple
 4 Print final tuple
-
+---
 
 
 
@@ -61,81 +55,87 @@ Check whether “London” exists in the tuple.
 students = ("Pune","Delhi","Citadel","London")
 Expected output:
 Found OR Not Found
-
+---
 🔟 Count Total Students
 Using this tuple:
 class_for_python = ("Pallav","mahak","Yogesh","Amit","Sonal","Abhay","Gungun","Akanksha","nishcal", "Pradyumn")
-
-________________________________________________________
-
+---
+Let's move to sets now.
+---
 
 1️⃣ Create a Set
 Create a set of fruits.
 fruits = {"apple","banana","mango","orange"}
 Tasks:
-Print the set
-
-
-Print the type
-
+1. Print the set
+2. Print the type
+---
 
 2️⃣ Observe Duplicate Removal
 Run the following code:
 nums = {1,2,3,2,4,1,5}
 print(nums)
 Question:  Why are some numbers missing in the output?
-
+---
 3️⃣ Convert List → Set
 numbers = [1,2,3,2,4,5,1,6]
 Tasks:
 1 Convert list into set
 2 Print the result
 Expected understanding: duplicate removal
+---
 4️⃣ Find Unique Values from List
 students = ["Rahul","Aman","Rahul","Neha","Aman","Priya"]
 Print only unique student names.
+---
 5️⃣ Add Element to Set
 fruits = {"apple","banana","mango"}
 Tasks:
 1 Add "orange"
 2 Print updated set
+---
 6️⃣ Remove Element from Set
 fruits = {"apple","banana","mango","orange"}
 Remove "banana".
+---
 7️⃣ Loop Through Set
 nums = {10,20,30,40}
 Print all elements using for loop.
+---
 8️⃣ Check Membership
 languages = {"python","java","c++","go"}
 Check if "python" exists.
+---
 9️⃣ Find Common Elements (Set Intersection)
 set1 = {1,2,3,4,5}
 set2 = {4,5,6,7}
 Print common numbers.
 Expected:
 {4,5}
-
+---
 🔟 Find Unique Elements (Difference)
 set1 = {1,2,3,4}
 set2 = {3,4,5,6}
 Find elements present in set1 but not in set2.
+---
 11. Combine Two Sets
 set1 = {"apple","banana"}
 set2 = {"mango","orange"}
 Combine both sets.
 Expected output
 {'apple','banana','mango','orange'}
-
+---
 12 Remove Duplicate Numbers from List
 nums = [1,5,2,8,6,4,3,9,5,9,3,1]
 Remove duplicates using set.
 Expected output(order may vary):
 [1,5,2,8,6,4,3,9]
+---
 13 Unique Website Visitors
 A website logs visitors like this:
 visitors = ["user1","user2","user3","user1","user2","user4"]
 Find total unique visitors.
-
+---
 
 
 

@@ -1,4 +1,5 @@
 Python File Handling – Practice Questions
+---
 These exercises are designed to help to practice Python file handling concepts including
 reading files, writing files, append mode.
 ---
@@ -9,4 +10,4 @@ Write a program to read the entire content of students.txt and print it.
 Write a program to append a new student name into students.txt without deleting existing data.
 ---
 Write a program to read a file and print only those lines which contain the word 'Python'.
-
+---

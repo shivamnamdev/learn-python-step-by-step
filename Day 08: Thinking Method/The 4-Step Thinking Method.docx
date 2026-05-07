@@ -1,11 +1,12 @@
 The 4-Step Thinking Method 
 Every program should go through 4 stages.
-Understand the problem
-Write the logic in simple language
-Convert logic into step-by-step actions
-Convert steps into Python
-
+ - Understand the problem
+ - Write the logic in simple language
+ - Convert logic into step-by-step actions
+ - Convert steps into Python
+---
 Example 1 — Find Duplicate Values
+
 Step 1: Understand the Problem
 Input list: [1,5,2,8,6,4,3,9,5,9,3]
 Problem: Find numbers that appear more than once.
@@ -39,19 +40,14 @@ for i in range(len(num)): # Loop through the list
     if num[i] in num[i+1:] and num[i] not in duplicate:
         duplicate.append(num[i]) #Add it to duplicate list
 
-
-
-
-
-
-
-
-
+---
 
 
 Example 2 — Second Smallest Value
+
 Step 1: Problem
 Find second smallest number.
+
 Step 2: Human Logic
 1. Assume first number is smallest
 2. Assume second number is second smallest
@@ -61,6 +57,7 @@ Step 2: Human Logic
        new number becomes smallest
 5. Else if new number smaller than second smallest
        update second smallest
+
 Step 3: Algorithm
 Set smallest = first element
 Set second_smallest = second element
@@ -70,8 +67,10 @@ Loop through each number
         smallest = number
     Else if number < second_smallest
         second_smallest = number
+
 Step 4: Code
 Now code is obvious.
+---
 VERY IMPORTANT TRICK TO START
  fill this template.
 Problem:
@@ -93,5 +92,5 @@ submit only logic first.
 3. If yes store it
 4. Print stored numbers
 Then coding.
-
+---
 

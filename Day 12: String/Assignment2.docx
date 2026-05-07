@@ -1,91 +1,89 @@
 🟢 Level 1 – Basic Loop + Condition on String
+---
 1️⃣ Count Vowels
 Take a string input and count how many vowels are present.
-
+---
 2️⃣ Count Consonants
 Count total consonants in a string.
-
+---
 3️⃣ Count Uppercase & Lowercase
 Print:
-Number of uppercase letters
+1. Number of uppercase letters
+2. Number of lowercase letters
 
-
-Number of lowercase letters
-
-
+---
 
 4️⃣ Count Digits
 Input: "abc123xyz45"
 Output: Total digits = 5
-
+---
 5️⃣ Count Spaces
 Count how many spaces are present in a sentence.
-
+---
 
 🟡 Level 2 – Character Checking Logic
+---
 6️⃣ Print Only Vowels
 Input: "education"
 Output: e u a i o
-
+---
 7️⃣ Print Characters at Even Index
 Use loop + condition.
 
-letter = "string"
-for i in range(len(letter))
-    if i % 2 == 0:
-        print(letter[i])
-
+---
 8️⃣ Reverse String Without Slicing
 Use loop only.
 
 name = "pradyumna"
-
+---
 9️⃣ Check Palindrome
 Input: "madam"
 Output: Palindrome
 Use loop + condition (not using slicing).
-
+---
 🔟 Find First Non-Repeating Character
 Input: "aabbcdd"
 Output: c
-
+---
 
 🟠 Level 3 – Pattern Logic Using Strings
+---
 1️⃣1️⃣ Remove All Vowels
 Input: "python"
 Output: "pythn"
-
+---
 1️⃣2️⃣ Replace Space With “-”
 Without using .replace()
 Use loop.
-
+---
 1️⃣3️⃣ Count Frequency of Each Character
 Input: "banana"
 Output:
 b = 1
 a = 3
 n = 2
-
+---
 1️⃣4️⃣ Find Longest Word in Sentence
 Input: "Python is very powerful language"
 Output: "powerful"
-
+---
 1️⃣5️⃣ Convert Lowercase to Uppercase Without .upper()
 Use ASCII logic (optional advanced).
-
+---
 🔵 Level 4 – Logical Thinking Problems
 1️⃣6️⃣ Check if Two Strings are Anagrams
 Input: "listen" and "silent"
 Output: Anagram
-
+---
 1️⃣7️⃣ Remove Duplicate Characters
 Input: "programming"
 Output: "progamin"
-
+---
 1️⃣8️⃣ Count Words in Sentence Without split()
-
+---
 1️⃣9️⃣ Compress String
 Input: "aaabbc"
 Output: "a3b2c1"
-
+---
 2️⃣0️⃣ Find Second Most Frequent Character
+---

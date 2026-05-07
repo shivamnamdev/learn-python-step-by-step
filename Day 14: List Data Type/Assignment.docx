@@ -1,17 +1,30 @@
 1 Print all elements of a list one by one
+---
 2 Find sum manually (No sum())
+---
 3 Count even numbers
+---
 4 Create separate even and odd lists
+---
 5 Find max manually
+---
 6 Find minimum manually
+---
 7 Print all pairs
 nums = [1,2,3]
 Output: 
 1 2
 2 3
-8 Find repeating value in the list
+---
+8 Find consecutively repeating value in the list
+---
 9 Remove duplicates in the list
+---
 10 Find second smallest (find smallest and then find smallest in the remaining values in the list)
+---
 11 Simple Bubble Sort
-12 Rotate Left Once
-13 Rotate Right Twice
+---
+12 Rotate the list Left side Once
+---
+13 Rotate the list Right side Twice
+---

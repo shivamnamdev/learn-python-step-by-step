@@ -1,44 +1,107 @@
 🟢 Level 1: Basic Indexing Practice
+---
 Use:
 text = "Programming"
 Print the first character.
+---
+Use:
+text = "Programming"
 Print the last character using negative indexing.
+---
+Use:
+text = "Programming"
 Print the 4th character.
+---
+Use:
+text = "Programming"
 Print the second last character.
+---
+Use:
+text = "Programming"
 Take input from user and print only the last character.
-
+---
 🟡 Level 2: Basic Slicing (Start : End)
+---
 Use:
 word = "PythonDeveloper"
 Print "Python" using slicing.
+---
+Use:
+word = "PythonDeveloper"
 Print "Developer" using slicing.
+---
+Use:
+word = "PythonDeveloper"
 Print "thon".
+---
+Use:
+word = "PythonDeveloper"
 Print first 5 characters using slicing shortcut.
+---
+Use:
+word = "PythonDeveloper"
 Print last 4 characters using negative slicing.
-
+---
 🟠 Level 3: Step Slicing (Important)
+---
 Use:
 data = "ABCDEFGHIJK"
 Print every second character.
+---
+Use:
+data = "ABCDEFGHIJK"
 Print every third character.
+---
+Use:
+data = "ABCDEFGHIJK"
 Print characters from index 1 to 8 with step 2.
+---
+Use:
+data = "ABCDEFGHIJK"
 Print entire string using slicing only.
+---
+Use:
+data = "ABCDEFGHIJK"
 Print the string in reverse order.
-
+---
 🔵 Level 4: Reverse Logic Thinking
+---
 Use:
 text = "LearningPython"
 Print  "Python"  using negative slicing only.
+---
+Use:
+text = "LearningPython"
 Print "gninraeL" using slicing.
 Print "nohtyP" using slicing.
+---
+Use:
+text = "LearningPython"
 Print characters from index 10 to 4 in reverse order.
+---
+Use:
+text = "LearningPython"
 Without using [::-1], print the entire string in reverse.
-
+---
 🔥 Bonus Thinking Questions (Very Important)
+---
 Use:
 sentence = "Today is Day-10"
 Print "Day-10" using slicing.
+---
+Use:
+sentence = "Today is Day-10"
 Print "Today" in reverse using slicing only.
+---
+Use:
+sentence = "Today is Day-10"
 Print "is" using slicing.
+---
+Use:
+sentence = "Today is Day-10"
 Print every second character from entire sentence.
+---
+Use:
+sentence = "Today is Day-10"
 Predict the output before running: print(sentence[-1:-6:-1])
+---
