@@ -31,9 +31,9 @@ file.close()
 # Example 3: How to write a file
 file = open('Writing.txt','w')
 # print(file.read()) io.UnsupportedOperation: not readable
-file.write("This is my updated file")
+file.write("This is my newly updated file")
 print(file.write(" number of item"))
-print(file.read())
+# print(file.read())
 file.close()
 # file.write("SHouldn't print") ValueError: I/O operation on closed file.
 
@@ -51,15 +51,34 @@ file = open("Writings.txt",'a')
 file.write("\nAppend a new data")
 file.close()
 
-# Example 6: Execute the file
-file = open("execute.txt",'x')
-# file = open("execute.txt",'x') FileExistsError: [Errno 17] File exists: 'execute.txt'
-file.write("Append a new data")
-# print(file.read()) io.UnsupportedOperation: not readable
-file.close()
+# # Example 6: Execute the file
+# file = open("execute.txt",'x')
+# # file = open("execute.txt",'x') FileExistsError: [Errno 17] File exists: 'execute.txt'
+# file.write("Append a new data")
+# # print(file.read()) io.UnsupportedOperation: not readable
+# file.close()
 
 # r+ -> read + write
 # w+ -> write + read
 # a+ -> append + read
 
-# New Line from github web editor
+# File Pointer(cursur): To iterate in the file from the particular position
+
+newfile = open("Writings.txt",'r')
+print("start of the file:",newfile.tell())
+newfile.read()
+print("end of the file:",newfile.tell())
+newfile.seek(0)
+print("start of the file:",newfile.tell())
+newfile.read()
+print("end of the file:",newfile.tell())
+newfile.seek(0)
+print("start of the file:",newfile.tell())
+newfile.read(5)
+print("end of the file:",newfile.tell())
+
+file = open('Writingwithreading.txt','w+')
+file.write("This is my newly updated file")
+file.seek(0)
+print(file.read())
+file.close()
