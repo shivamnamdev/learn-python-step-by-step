@@ -1,0 +1,36 @@
+
+If digit exists in "0123456789", print "Valid digit"
+Else print "Invalid digit"
+---
+Create a variable:
+is_active = True
+If is_active is True, print "System is active"
+---
+Take age as input.
+If (age > 18) is True, print "Adult"
+Else print "Minor”
+---
+Create two variables:
+a = True
+b = True
+If a is b, print "Same identity"
+Else print "Different identity"
+---
+Take marks from user:
+If marks ≥ 90 → "Grade A"
+Else if marks ≥ 75 → "Grade B"
+Else if marks ≥ 50 → "Grade C"
+Else → "Fail"
+---
+Take age from user:
+If age < 13 → "Child"
+Else if age < 20 → "Teenager"
+Else if age < 60 → "Adult"
+Else → "Senior Citizen"
+---
+CHALLENGE
+Take input from user.
+If input is a digit → "Number"
+Else if input exists in "aeiou" → "Vowel"
+Else → "Consonant or string"
+---
