@@ -1,0 +1,293 @@
+ 
+==========================================
+THE 4-STEP THINKING METHOD — PRACTICE SET
+==========================================
+ 
+
+ 
+==========================================
+STEP 1 — UNDERSTAND THE PROBLEM
+==========================================
+ 
+
+ 
+------------------------------------------
+Q1. Find Largest Number
+------------------------------------------
+
+Problem:
+Find the largest value from the list
+
+Input:
+[4, 8, 2, 15, 6]
+
+Goal:
+Print the largest number
+ 
+
+ 
+------------------------------------------
+Q2. Find Odd Numbers
+------------------------------------------
+
+Problem:
+Find all odd numbers from list
+
+Input:
+[1,2,3,4,5,6,7,8]
+
+Goal:
+Store and print odd numbers
+ 
+
+ 
+------------------------------------------
+Q3. Count Vowels in String
+------------------------------------------
+
+Problem:
+Count vowels from given string
+
+Input:
+"education"
+
+Goal:
+Print total vowel count
+ 
+
+ 
+------------------------------------------
+Q4. Find Smallest Number
+------------------------------------------
+
+Problem:
+Find smallest value from list
+
+Input:
+[12,5,8,2,15]
+
+Goal:
+Print smallest number
+ 
+
+ 
+------------------------------------------
+Q5. Reverse a String
+------------------------------------------
+
+Problem:
+Reverse the given string
+
+Input:
+"python"
+
+Goal:
+Print string in reverse order
+ 
+
+ 
+==========================================
+STEP 2 — WRITE LOGIC IN HUMAN LANGUAGE
+==========================================
+ 
+
+ 
+------------------------------------------
+Q1. Find Largest Number
+------------------------------------------
+
+Write logic in simple English:
+1.
+2.
+3.
+4.
+ 
+
+ 
+------------------------------------------
+Q2. Find Odd Numbers
+------------------------------------------
+
+Write logic in simple English:
+1.
+2.
+3.
+4.
+ 
+
+ 
+------------------------------------------
+Q3. Count Vowels in String
+------------------------------------------
+
+Write logic in simple English:
+1.
+2.
+3.
+4.
+ 
+
+ 
+------------------------------------------
+Q4. Find Smallest Number
+------------------------------------------
+
+Write logic in simple English:
+1.
+2.
+3.
+4.
+ 
+
+ 
+------------------------------------------
+Q5. Reverse a String
+------------------------------------------
+
+Write logic in simple English:
+1.
+2.
+3.
+4.
+ 
+
+ 
+==========================================
+STEP 3 — CONVERT TO ALGORITHM / STEPS
+==========================================
+ 
+
+ 
+------------------------------------------
+Q1. Find Largest Number
+------------------------------------------
+
+Step 1:
+
+Step 2:
+
+Step 3:
+
+Step 4:
+ 
+
+ 
+------------------------------------------
+Q2. Find Odd Numbers
+------------------------------------------
+
+Step 1:
+
+Step 2:
+
+Step 3:
+
+Step 4:
+ 
+
+ 
+------------------------------------------
+Q3. Count Vowels in String
+------------------------------------------
+
+Step 1:
+
+Step 2:
+
+Step 3:
+
+Step 4:
+ 
+
+ 
+------------------------------------------
+Q4. Find Smallest Number
+------------------------------------------
+
+Step 1:
+
+Step 2:
+
+Step 3:
+
+Step 4:
+ 
+
+ 
+------------------------------------------
+Q5. Reverse a String
+------------------------------------------
+
+Step 1:
+
+Step 2:
+
+Step 3:
+
+Step 4:
+ 
+
+ 
+==========================================
+STEP 4 — WRITE PYTHON CODE
+==========================================
+ 
+
+ 
+------------------------------------------
+Q1. Find Largest Number
+------------------------------------------
+ 
+
+
+
+ 
+------------------------------------------
+Q2. Find Odd Numbers
+------------------------------------------
+ 
+
+
+
+ 
+------------------------------------------
+Q3. Count Vowels in String
+------------------------------------------
+ 
+
+
+
+ 
+------------------------------------------
+Q4. Find Smallest Number
+------------------------------------------
+ 
+
+
+
+
+------------------------------------------
+Q5. Reverse a String
+------------------------------------------
+
+
+
+
+
+==========================================
+FINAL INSTRUCTION
+==========================================
+
+Do NOT directly jump into coding.
+
+Follow these steps carefully:
+1. Understand the problem
+2. Write logic in simple English
+3. Convert logic into algorithm steps
+4. Then write Python code
+
+This method will improve:
+- problem solving
+- logical thinking
+- coding confidence
+==========================================
