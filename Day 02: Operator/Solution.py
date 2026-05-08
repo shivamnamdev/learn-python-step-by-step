@@ -1,6 +1,6 @@
 # Perfect—this is where real understanding of Python starts. I’ll solve each one with **step-by-step logic**, not just answers.
 
-
+# --------------------------------
 # 1️⃣ Arithmetic + Precedence
 
 a = 8
@@ -34,7 +34,7 @@ a + 6 - 2 = 8 + 6 - 2 = 12
 ## ✅ Output:
 
 12
-
+# --------------------------------
 # 2️⃣ Arithmetic (Mix Operations)
 
 
@@ -70,7 +70,7 @@ x // y = 10 // 4 = 2
 ## ✅ Output:
 
 6
-
+# --------------------------------
 # 3️⃣ Logical Operator (Truthy/Falsy)
 
 print("" or 0 or False or "Python")
@@ -112,7 +112,7 @@ print("Hello" and "World")
 
 # Python returns **actual value**, not just boolean.
 
-
+# --------------------------------
 # 4️⃣ Comparative + Logical
 
 a = 5
@@ -145,7 +145,7 @@ True or False # → True
 ## ✅ Output:
 
 True
-
+# --------------------------------
 # 5️⃣ Logical + `not`
 
 print(not 0)

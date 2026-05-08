@@ -1,6 +1,6 @@
 # Great—this is exactly the kind of **Day 1 reinforcement** that builds strong basics. I’ll give you clean solutions + what you should observe.
 
-
+# --------------------------------
 # 🟢 Level 1: Basic Practice
 
 ## 1. Print your name
@@ -15,7 +15,7 @@ print("Your College Name")
 
 print("Success is the result of consistent effort.")
 
-
+# --------------------------------
 # 🟠 Level 2: Experimentation
 
 ## 4. Print your age
