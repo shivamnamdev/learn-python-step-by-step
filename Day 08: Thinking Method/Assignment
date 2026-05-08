@@ -3,7 +3,7 @@
 THE 4-STEP THINKING METHOD — PRACTICE SET
 ==========================================
  
-
+--- 
  
 ==========================================
 STEP 1 — UNDERSTAND THE PROBLEM
@@ -84,7 +84,7 @@ Input:
 Goal:
 Print string in reverse order
  
-
+--- 
  
 ==========================================
 STEP 2 — WRITE LOGIC IN HUMAN LANGUAGE
@@ -150,7 +150,7 @@ Write logic in simple English:
 3.
 4.
  
-
+--- 
  
 ==========================================
 STEP 3 — CONVERT TO ALGORITHM / STEPS
@@ -227,7 +227,8 @@ Step 3:
 Step 4:
  
 
- 
+--- 
+
 ==========================================
 STEP 4 — WRITE PYTHON CODE
 ==========================================
@@ -269,7 +270,6 @@ Q4. Find Smallest Number
 ------------------------------------------
 Q5. Reverse a String
 ------------------------------------------
-
 
 
 
