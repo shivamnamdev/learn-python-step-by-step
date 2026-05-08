@@ -1,7 +1,7 @@
 # ================================
 # Operators and Built-in Functions
 # ================================
-
+# --------------------------------
 # 1. Take a name as input and print it
 name = input("Enter your name: ")
 print("Name:", name)
@@ -73,15 +73,13 @@ s2 = "Python"
 
 print("s1 is s2:", s1 is s2)  # Usually True (string interning)
 
-# --------------------------------
-
-# 10. Check whether two variables point to same object
+# Check whether two variables point to same object
 a = input("Enter value: ")
 b = a
 
 print("a is b:", a is b)  # True (same reference)
 
-# --------------------------------
+
 
 # Key Concepts:
 # - input() always returns string
