@@ -1,83 +1,48 @@
-🟢 Level 1: Understanding While Loop Structure
-👉 Focus: initialization, condition, update
+==========================================
+WHILE LOOP + BREAK + CONTINUE PRACTICE
+==========================================
+---
 Q1.
-Print "Hello" 5 times using a while loop.
+Print numbers from 1 to 10 using while loop.
+Skip numbers 3 and 7 using continue statement.
+
+Expected Output:
+1 2 4 5 6 8 9 10
+
+---
 
 Q2.
-Print numbers from 0 to 4 using while loop.
+Print numbers from 1 onwards using while loop.
+Stop the loop immediately when number becomes 6.
+
+Expected Output:
+1 2 3 4 5
+
+---
 
 Q3.
-Print numbers from 1 to 5 using while loop.
+Print numbers from 1 to 15.
+Skip all even numbers using continue statement.
+
+Expected Output:
+1 3 5 7 9 11 13 15
+
+---
 
 Q4.
-Print "Python" 3 times using while loop.
+Create a while True loop.
+Print numbers starting from 1.
+Break the loop when number becomes greater than 5.
+
+Expected Output:
+1 2 3 4 5
+
+---
 
 Q5.
-Print even numbers from 0 to 10 using while loop.
-(Hint: increment by 2)
+Print numbers from 1 to 10.
+If number is divisible by 4, skip it using continue.
+If number becomes greater than 8, stop the loop using break.
 
-
-
-🟡 Level 2: Understanding Condition & Truthy / Falsy
-👉 Focus: how while evaluates condition
-Q6.
-What will this code do? Explain why.
-while -5:
-    print("Running")
-Q7.
-What will be the output?
-flag = True
-count = 0
-while flag:
-    print("Working")
-    count += 1
-    if count == 1:
-        flag = False
-
-Q8.
-Write a program that prints "Loop Active" only once using a boolean flag.
-
-
-
-
-🟡 Level 3: Reverse & Counting Logic
-👉 Focus: increment / decrement
-Q9.
-Print numbers from 5 to 1 using while loop.
-
-Q10.
-Print numbers from 10 to 0 using while loop.
-
-Q11.
-Print all numbers from 1 to 10, but increase by 2 each time.
-
-🟡 Level 4: String Traversal Using While Loop
-👉 Focus: indexing, len(), loop termination
-Q12.
-Print each character of the string "HELLO" using while loop.
-
-Q13.
-Print characters of "python" in a single line separated by comma.
-
-Q14.
-Print string "abcde" in reverse order using while loop.
-
-Q15.
-Count and print the number of characters in a string using while loop (don’t use len() directly for count).
-
-🟠 Level 5: Thinking Practice (Still Basic)
-👉 Focus: combining ideas without complexity
-Q16.
-Print numbers from 1 to 10, but stop when number reaches 6.
-
-Q17.
-Print "Working" until a variable count reaches 3.
-
-Q18.
-Print all characters of a string with index number.
-
-Q19.
-Print characters at even index positions of a string.
-
-Q20.
-Print "Loop Ended" after the while loop finishes.
+Expected Output:
+1 2 3 5 6 7
