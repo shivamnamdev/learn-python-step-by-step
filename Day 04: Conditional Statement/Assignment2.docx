@@ -1,4 +1,4 @@
-
+Take a digit as input.
 If digit exists in "0123456789", print "Valid digit"
 Else print "Invalid digit"
 ---
