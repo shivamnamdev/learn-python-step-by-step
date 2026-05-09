@@ -8,12 +8,10 @@ THE 4-STEP THINKING METHOD — PRACTICE SET
 ==========================================
 STEP 1 — UNDERSTAND THE PROBLEM
 ==========================================
- 
 
  
-------------------------------------------
 Q1. Find Largest Number
-------------------------------------------
+
 
 Problem:
 Find the largest value from the list
@@ -25,10 +23,7 @@ Goal:
 Print the largest number
  
 
- 
-------------------------------------------
 Q2. Find Odd Numbers
-------------------------------------------
 
 Problem:
 Find all odd numbers from list
@@ -40,10 +35,7 @@ Goal:
 Store and print odd numbers
  
 
- 
-------------------------------------------
-Q3. Count Vowels in String
-------------------------------------------
+ Q3. Count Vowels in String
 
 Problem:
 Count vowels from given string
@@ -55,10 +47,7 @@ Goal:
 Print total vowel count
  
 
- 
-------------------------------------------
 Q4. Find Smallest Number
-------------------------------------------
 
 Problem:
 Find smallest value from list
@@ -70,10 +59,7 @@ Goal:
 Print smallest number
  
 
- 
-------------------------------------------
 Q5. Reverse a String
-------------------------------------------
 
 Problem:
 Reverse the given string
@@ -91,10 +77,7 @@ STEP 2 — WRITE LOGIC IN HUMAN LANGUAGE
 ==========================================
  
 
- 
-------------------------------------------
 Q1. Find Largest Number
-------------------------------------------
 
 Write logic in simple English:
 1.
@@ -102,11 +85,7 @@ Write logic in simple English:
 3.
 4.
  
-
- 
-------------------------------------------
 Q2. Find Odd Numbers
-------------------------------------------
 
 Write logic in simple English:
 1.
@@ -114,11 +93,7 @@ Write logic in simple English:
 3.
 4.
  
-
- 
-------------------------------------------
 Q3. Count Vowels in String
-------------------------------------------
 
 Write logic in simple English:
 1.
@@ -126,11 +101,7 @@ Write logic in simple English:
 3.
 4.
  
-
- 
-------------------------------------------
 Q4. Find Smallest Number
-------------------------------------------
 
 Write logic in simple English:
 1.
@@ -138,11 +109,7 @@ Write logic in simple English:
 3.
 4.
  
-
- 
-------------------------------------------
 Q5. Reverse a String
-------------------------------------------
 
 Write logic in simple English:
 1.
@@ -157,10 +124,7 @@ STEP 3 — CONVERT TO ALGORITHM / STEPS
 ==========================================
  
 
- 
-------------------------------------------
 Q1. Find Largest Number
-------------------------------------------
 
 Step 1:
 
@@ -171,10 +135,7 @@ Step 3:
 Step 4:
  
 
- 
-------------------------------------------
 Q2. Find Odd Numbers
-------------------------------------------
 
 Step 1:
 
@@ -185,10 +146,7 @@ Step 3:
 Step 4:
  
 
- 
-------------------------------------------
 Q3. Count Vowels in String
-------------------------------------------
 
 Step 1:
 
@@ -199,10 +157,7 @@ Step 3:
 Step 4:
  
 
- 
-------------------------------------------
 Q4. Find Smallest Number
-------------------------------------------
 
 Step 1:
 
@@ -213,10 +168,7 @@ Step 3:
 Step 4:
  
 
- 
-------------------------------------------
 Q5. Reverse a String
-------------------------------------------
 
 Step 1:
 
@@ -234,43 +186,25 @@ STEP 4 — WRITE PYTHON CODE
 ==========================================
  
 
- 
-------------------------------------------
-Q1. Find Largest Number
-------------------------------------------
- 
+Q1. Find Largest Number 
 
 
 
- 
-------------------------------------------
 Q2. Find Odd Numbers
-------------------------------------------
  
 
 
 
- 
-------------------------------------------
-Q3. Count Vowels in String
-------------------------------------------
- 
-
-
-
- 
-------------------------------------------
-Q4. Find Smallest Number
-------------------------------------------
- 
+Q3. Count Vowels in String 
 
 
 
 
-------------------------------------------
+Q4. Find Smallest Number 
+
+
+
 Q5. Reverse a String
-------------------------------------------
-
 
 
 
