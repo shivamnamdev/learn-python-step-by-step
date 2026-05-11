@@ -36,3 +36,4 @@ Write a program that reads a file and counts how many times a specific word appe
 ---
 
 Write a program that removes blank lines from a file and writes the cleaned content into a new file.
+---
