@@ -82,3 +82,61 @@ file.write("This is my newly updated file")
 file.seek(0)
 print(file.read())
 file.close()
+
+#Example 8: using with keyword
+
+with open("Testing.txt", 'r') as f:
+    print(f.read())    
+    
+# Example 9: This is also possible 
+print("********************")    
+print(open('Testing.txt','r').read())     
+
+
+# with open("Writings.txt",'r') as a:
+    # print(a.readline(4))
+    # print(a.readline(3))
+    # print(a.readline(2))
+    # print(a.readline())
+    # print(a.readlines(4))
+    # print(a.readlines(4))
+    
+with open("Writings.txt",'r') as file:
+    line = file.readline()
+    print(line)
+    lines = file.readlines()
+    print(lines)
+        
+lines = ['This is my first line\n', "this should be my second line\n","This should be my third line","this is the last line."]
+
+with open("writelinefunction.txt",'w') as file:
+    file.writelines(lines)
+    
+    
+print("**********************")    
+# Function
+# Write a program to read a file and print only those lines which contain 
+# the word 'Python'.
+# with open("PythonFileForTesting.txt", 'r') as file:
+#     line = file.readline()
+#     if 'python' in line: 
+#         print(line)
+        
+#     line = file.readline()
+#     if 'python' in line: 
+#         print(line)
+    
+#     line = file.readline()
+#     if 'python' in line: 
+#         print(line)
+        
+        
+#     line = file.readline()
+#     if 'python' in line: 
+#         print(line)            
+ 
+with open("PythonFileForTesting.txt", 'r') as file:
+    line = file.readlines()
+    for lines in line:            
+        if 'python' in lines: 
+            print(lines)  
