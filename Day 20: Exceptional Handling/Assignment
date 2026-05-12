@@ -1,0 +1,208 @@
+==========================================
+PYTHON EXCEPTION HANDLING – PRACTICE QUESTIONS
+==========================================
+
+These exercises combine:
+- Exception Handling
+- Lists
+- Dictionaries
+- Loops
+- Strings
+- Conditions
+- File Handling
+
+Instruction:
+Before writing code:
+1. Think where program can fail
+2. Identify possible exceptions
+3. Use try-except properly
+==========================================
+ 
+---
+
+1️⃣ Safe List Index Access
+
+Create a list:
+numbers = [10, 20, 30, 40, 50]
+
+Tasks:
+1. Take index number from user
+2. Print value at that index
+3. Handle:
+   - invalid index
+   - invalid input type
+
+Expected Learning:
+- IndexError
+- ValueError
+
+---
+
+2️⃣ Student Marks Dictionary Program
+
+Create dictionary:
+marks = {
+    "maths": 80,
+    "science": 70,
+    "english": 65
+}
+
+Tasks:
+1. Take subject name from user
+2. Print marks of that subject
+3. Handle invalid subject name
+
+Expected Learning:
+- KeyError
+
+---
+
+3️⃣ Shopping Cart Bill Splitter
+
+cart = [120, 340, 560, 200]
+
+Tasks:
+1. Find total bill using loop
+2. Take number of people from user
+3. Divide bill equally
+4. Handle:
+   - division by zero
+   - invalid input
+
+Expected Learning:
+- ZeroDivisionError
+- ValueError
+
+---
+
+4️⃣ Word Counter Program
+
+Tasks:
+1. Take sentence from user
+2. Split sentence into words
+3. Print total word count
+4. Handle unexpected errors
+
+Expected Learning:
+- Exception class
+
+---
+
+5️⃣ Safe File Reader
+
+Tasks:
+1. Take filename from user
+2. Open file in read mode
+3. Print file content
+4. Handle missing file error
+5. Print message after program finishes
+
+Expected Learning:
+- FileNotFoundError
+- finally block
+
+---
+
+6️⃣ Student Database Lookup
+
+students = {
+    "Shivam": 85,
+    "Rahul": 72,
+    "Aman": 90
+}
+
+Tasks:
+1. Take student name from user
+2. Print marks
+3. Handle invalid student name
+
+Expected Learning:
+- KeyError
+
+---
+
+7️⃣ Simple Login System
+
+Create:
+username = "admin"
+password = "1234"
+
+Tasks:
+1. Take username and password from user
+2. Check login credentials
+3. If incorrect:
+   raise custom exception
+4. Print error message
+
+Expected Learning:
+- raise
+- Exception
+
+---
+
+8️⃣ ATM Withdrawal System
+
+balance = 5000
+
+Tasks:
+1. Take withdrawal amount
+2. Check if balance is sufficient
+3. Deduct amount
+4. Handle:
+   - invalid number input
+   - insufficient balance
+
+Expected Learning:
+- ValueError
+- Custom Exception
+
+---
+
+9️⃣ Largest Number from List
+
+numbers = [10, 50, 90, 30]
+
+Tasks:
+1. Find largest number
+2. Handle situation when list is empty
+
+Expected Learning:
+- ValueError
+
+---
+
+🔟 File Writer Program
+
+Tasks:
+1. Take text input from user
+2. Save text into file
+3. Print success message
+4. Handle possible file errors
+5. Print ending message using finally
+
+Expected Learning:
+- Exception handling
+- finally block
+
+==========================================
+FINAL INSTRUCTION
+==========================================
+
+Before coding:
+1. Find risky lines
+2. Predict possible errors
+3. Apply suitable exception blocks
+4. Keep program user-friendly
+
+Important Exception Types:
+- ValueError
+- IndexError
+- KeyError
+- ZeroDivisionError
+- FileNotFoundError
+- Exception
+
+Advanced Concepts:
+- raise
+- finally
+==========================================
