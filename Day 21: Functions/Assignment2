@@ -1,0 +1,42 @@
+Python Assignment: Functions, *args, **kwargs, and Global and Local Variables
+---
+
+1. Write a function using global variable to keep track of how many times the function has been called. Each time the function is called, it should print the current count.
+---
+2. Create a function sum_all(*args) that accepts multiple numbers and returns their total sum.
+---
+
+3. Write a function print_all(*args) that prints each element passed. Test it with numbers, strings, and lists.
+---
+
+4. Write a function combine_strings(*args) that joins all string inputs into one sentence.
+---
+
+5. Create a function student_details(**kwargs) that prints all student details in key:value format.
+---
+
+6. Write a function filter_data(**kwargs) that prints only those key-value pairs where value is of type int.
+---
+
+7. Create a function mixed_function(*args, **kwargs) that prints positional arguments separately and keyword arguments separately.
+---
+
+8. Write a program to pass a list using *args and print each element individually.
+---
+
+9. Create a dictionary and pass it using **kwargs into a function and print all values.
+---
+
+10. Write a function for global variable to find the area of a circle. The function should take radius as input and use the global variable for pi (3.14). Each time the function is called, it should print the area of the circle.
+---
+
+11. Write a function that accepts *args and finds the maximum number.
+---
+12. Write a function that accepts **kwargs and returns count of total keys.
+---
+13. Create a function that accepts *args where each argument is a list/tuple and print all elements using nested loop.
+---
+14. Write a function config(**kwargs) that prints default value if key not provided (use get()).
+---
+15. Write a function that demonstrates unpacking of list and dictionary using * and ** while calling
+function.
