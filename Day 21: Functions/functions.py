@@ -115,10 +115,20 @@ add(1)
 
 def student(**data):
     print(data)
+    print(data)
     
 student(name="Mahak", age=29, city="Dublin") 
 student(id=101, Designation="Security Analyst")   
-    
 
-    
-      
+
+# Default Parameter
+
+def add(a=2,b=5,c=7):
+    return a+b+c
+
+print(add(3,6)) # 9
+print(add())    # 7
+print(add(4))   # 9
+print(add(c=4)) # 6
+
+
