@@ -1,0 +1,95 @@
+OOP Assignment: 
+Understanding student_database Class 
+Reference Code: 
+class student_database: 
+# Class Variable 
+name = "Unknown" 
+course = "Python" 
+
+def add_student(self, named, courses): 
+self.name = named 
+self.course = courses 
+print(self) 
+
+
+Program 1: Basic Object Behavior 
+Create 3 objects and add data to first 2 objects only 
+Print all values and observe behavior of the third object. 
+Questions: - What is value of student
+name and course? - Why? 
+---
+
+Understanding student_database Class 
+Reference Code: 
+class student_database: 
+# Class Variable 
+name = "Unknown" 
+course = "Python" 
+
+def add_student(self, named, courses): 
+self.name = named 
+self.course = courses 
+print(self) 
+
+Program 2: Instance vs Class Variable 
+Add data using method 
+	student1.add_student("Rahul", "Java")
+and print: student1.name and student_database.name 
+Questions: - Why are values different? - 
+Which one changed? 
+---
+
+Understanding student_database Class 
+Reference Code: 
+class student_database: 
+# Class Variable 
+name = "Unknown" 
+course = "Python" 
+
+def add_student(self, named, courses): 
+self.name = named 
+self.course = courses 
+print(self) 
+
+Program 3: Direct Update Without Method Update 
+student2.name = ”New Value”
+student2.course = "C++"
+Questions: - Did class variable change? - Why? 
+---
+
+Understanding student_database Class 
+Reference Code: 
+class student_database: 
+# Class Variable 
+name = "Unknown" 
+course = "Python" 
+
+def add_student(self, named, courses): 
+self.name = named 
+self.course = courses 
+print(self) 
+
+Program 4: Change Class Variable Update class variable: 
+student_database.course = "Data Science" 
+Questions: - Which objects updated? 
+- Which did not? 
+- Why? 
+
+---
+Understanding student_database Class 
+Reference Code: 
+class student_database: 
+# Class Variable 
+name = "Unknown" 
+course = "Python" 
+
+def add_student(self, named, courses): 
+self.name = named 
+self.course = courses 
+print(self) 
+
+Program 5: Add New Method Add method show_details() and call for all objects. 
+def show_details(self):
+print("Name:", self.name)
+print("Course:", self.course)
+Questions: - How same method behaves differently?
