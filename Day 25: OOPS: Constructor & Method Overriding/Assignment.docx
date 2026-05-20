@@ -1,0 +1,163 @@
+
+Assignment: OOP (Constructor + Polymorphism + Overriding)
+
+Program 1: Constructor Behavior & Default Values
+Use the given student_database class:
+    
+class student_database: 
+    name = "Unknown" 
+    course = "Python" 
+    
+    def __init__(self,named="newname",courses="newcourses"): 
+        self.name = named 
+        name self.course = courses
+        
+Tasks:
+    Create 4 objects:
+        - 3 with values
+        - 1 without values
+
+
+    Print:
+    name and course of all students
+
+
+Questions:
+What values does the 4th object get?
+Why does it not fail?
+
+---
+
+Program 2: Instance vs Class Variable Deep Understanding
+Using same class and object:
+    
+class student_database: 
+    name = "Unknown" 
+    course = "Python" 
+    
+    def __init__(self,named="newname",courses="newcourses"): 
+        self.name = named 
+        name self.course = courses
+        
+
+Tasks:
+    Print:
+        student1.name
+        student_database.name
+
+
+Now update:
+student_database.course = "Data Science"
+
+Print all student courses again
+
+Questions:
+Which objects got updated?
+Which did NOT change?
+Why?
+
+---
+
+Program 3: Polymorphism Using Loop
+ Use Student and Teacher classes
+ 
+class Student: 
+    def show(self): 
+        print("I am a student") 
+
+class Teacher: 
+    def show(self): 
+        print("I am a teacher")
+        
+        
+Tasks:
+Add one more class:
+
+
+class Admin:
+   def show(self):
+       print("I manage the system")
+       
+Create list of objects:
+
+
+[Student(), Teacher(), Admin()]
+
+Run loop and call .show()
+
+
+Questions:
+How same method behaves differently?
+What would happen if one class doesn’t have show()?
+
+
+---
+
+Program 4: Method Overriding Behavior
+Use this class:
+    
+class Math:
+   def add(self,a,b):
+       print(a+b)
+
+   def add(self,a,b,c,d):
+       print(a+b+c+d)
+Tasks:
+    Call:
+        m = Math()
+        m.add(2,3)
+
+ Questions:
+Will this work or give error?
+Which method is actually executed?
+Why did the first method not run?
+
+
+---
+Program 5: Method Overloading (Python Way)
+Use Math2 class
+
+class Math2: 
+    def add(self,a,b,c=0): 
+        print(a+b+c) 
+        
+    def multiply(self, *numbers): 
+        print(sum(numbers))  
+
+Tasks:
+
+    Call:
+        a = Math2()
+        a.add(2,3)
+        a.add(2,3,4)
+
+        m = Math2()
+        m.multiply(2,3)
+        m.multiply(2,3,4,5)
+        
+Questions:
+How is add() working with different inputs?
+What is the role of default parameter?
+How does *numbers help in flexibility?
+
+---
+Final Concept Questions (Must Answer)
+
+1. Why is __init__ preferred over manual method call?
+2. Difference between:
+    - Class variable
+    - Instance variable
+    - Why Python does NOT support traditional overloading?
+    - What is the key idea behind polymorphism?
+    - What happens when two methods have same name in same class?
+
+
+
+
+
+
+
+ “You are not just creating objects —
+ you are controlling how they behave.”
+   
+
