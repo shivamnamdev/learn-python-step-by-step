@@ -142,7 +142,6 @@ objects = [
 ]
 
 for obj in objects:
-
     obj.show()
 
 # Output:
@@ -178,7 +177,7 @@ class Math:
 
 m = Math()
 
-# m.add(2,3)
+m.add(2,3)
 
 # Output:
 # TypeError
