@@ -4,13 +4,6 @@ Assignment: OOP (Constructor + Polymorphism + Overriding)
 Program 1: Constructor Behavior & Default Values
 Use the given student_database class:
     
-class student_database: 
-    name = "Unknown" 
-    course = "Python" 
-    
-    def __init__(self,named="newname",courses="newcourses"): 
-        self.name = named 
-        name self.course = courses
         
 Tasks:
     Create 4 objects:
@@ -31,14 +24,6 @@ Why does it not fail?
 Program 2: Instance vs Class Variable Deep Understanding
 Using same class and object:
     
-class student_database: 
-    name = "Unknown" 
-    course = "Python" 
-    
-    def __init__(self,named="newname",courses="newcourses"): 
-        self.name = named 
-        name self.course = courses
-        
 
 Tasks:
     Print:
@@ -60,16 +45,7 @@ Why?
 
 Program 3: Polymorphism Using Loop
  Use Student and Teacher classes
- 
-class Student: 
-    def show(self): 
-        print("I am a student") 
-
-class Teacher: 
-    def show(self): 
-        print("I am a teacher")
-        
-        
+     
 Tasks:
 Add one more class:
 
@@ -96,12 +72,7 @@ What would happen if one class doesn’t have show()?
 Program 4: Method Overriding Behavior
 Use this class:
     
-class Math:
-   def add(self,a,b):
-       print(a+b)
 
-   def add(self,a,b,c,d):
-       print(a+b+c+d)
 Tasks:
     Call:
         m = Math()
@@ -117,12 +88,7 @@ Why did the first method not run?
 Program 5: Method Overloading (Python Way)
 Use Math2 class
 
-class Math2: 
-    def add(self,a,b,c=0): 
-        print(a+b+c) 
-        
-    def multiply(self, *numbers): 
-        print(sum(numbers))  
+
 
 Tasks:
 

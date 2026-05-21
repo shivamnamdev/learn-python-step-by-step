@@ -8,3 +8,52 @@ class student_database:
         name self.course = courses
 
 # Write your Python code below:
+
+# ------------------------------------------
+
+
+class student_database: 
+    name = "Unknown" 
+    course = "Python" 
+    
+    def __init__(self,named="newname",courses="newcourses"): 
+        self.name = named 
+        name self.course = courses
+
+# Write your Python code below:
+
+# ------------------------------------------
+
+class Student: 
+    def show(self): 
+        print("I am a student") 
+
+class Teacher: 
+    def show(self): 
+        print("I am a teacher")
+
+# Write your Python code below:
+
+# ------------------------------------------
+
+class Math:
+   def add(self,a,b):
+       print(a+b)
+
+   def add(self,a,b,c,d):
+       print(a+b+c+d)
+
+# Write your Python code below:
+
+# ------------------------------------------
+
+class Math2: 
+    def add(self,a,b,c=0): 
+        print(a+b+c) 
+        
+    def multiply(self, *numbers): 
+        print(sum(numbers))  
+
+# Write your Python code below:
+
+# ------------------------------------------
