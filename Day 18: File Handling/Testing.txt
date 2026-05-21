@@ -1,0 +1,2 @@
+This is a sample text file for testing file handling in Python. 
+You can read, write, and manipulate this file using Python's built-in functions.

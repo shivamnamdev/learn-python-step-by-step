@@ -1,0 +1,39 @@
+
+Write a program to count the number of lines present in a file.
+
+---
+
+Write a program to count the total number of characters present in a file.
+
+---
+
+Write a program that reads a file and prints each line with its line number.
+
+---
+
+Write a program that writes numbers from 1 to 20 into a file and then reads the file to print only even numbers.
+
+---
+
+Write a program that stores student marks in a file and then reads the file to find the student with the highest marks.
+
+---
+
+Write a program to demonstrate the use of tell() by printing the cursor position before and after reading some characters.
+
+---
+
+Write a program to demonstrate seek() by moving the cursor back to the beginning of the file after reading some data.
+
+---
+
+Write a program that copies the contents of one file into another file.
+
+---
+
+Write a program that reads a file and counts how many times a specific word appears.
+
+---
+
+Write a program that removes blank lines from a file and writes the cleaned content into a new file.
+---
