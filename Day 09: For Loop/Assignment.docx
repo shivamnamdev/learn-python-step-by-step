@@ -1,0 +1,159 @@
+==========================================
+Python Assignment: For Loop Practice
+==========================================
+
+Objective:
+Practice Python for loops using numbers,
+strings, conditions, and basic patterns.
+
+Instructions:
+= Write clean and properly indented code
+= Run every program and observe output
+= Try to understand loop behavior
+= Avoid copying directly without practice
+---
+==========================================
+SECTION 1: Basic For Loop Programs
+==========================================
+
+1.
+Write a Python program to print
+numbers from 1 to 10 using a for loop.
+
+---
+
+2.
+Write a Python program to print
+numbers from 10 to 1 in reverse order.
+
+---
+
+3.
+Write a Python program to print
+your name 5 times using a loop.
+
+---
+
+4.
+Write a Python program to print
+all even numbers between 1 and 20.
+
+---
+
+5.
+Write a Python program to print
+all odd numbers between 1 and 20.
+---
+==========================================
+SECTION 2: Number-Based Logic Programs
+==========================================
+---
+6.
+Write a Python program to print
+square of numbers from 1 to 10.
+
+Example:
+1 → 1
+2 → 4
+3 → 9
+
+---
+
+7.
+Write a Python program to print
+cube of numbers from 1 to 5.
+
+Example:
+2 → 8
+3 → 27
+
+---
+
+8.
+Write a Python program to print
+multiplication table of 5.
+
+Expected format:
+5 × 1 = 5
+5 × 2 = 10
+
+---
+
+9.
+Write a Python program to print
+all numbers divisible by 3
+between 1 and 30.
+
+---
+
+10.
+Write a Python program to calculate
+and print the sum of numbers
+from 1 to 10.
+---
+==========================================
+SECTION 3: String-Based Programs
+==========================================
+---
+11.
+Write a Python program to print
+each character of a word separately
+using a for loop.
+
+---
+
+12.
+Write a Python program to count
+total number of characters
+present in a word.
+
+---
+
+13.
+Write a Python program to count
+total vowels present in a word.
+
+Vowels:
+a, e, i, o, u
+---
+==========================================
+SECTION 4: Basic Pattern Programs
+==========================================
+---
+14.
+Write a Python program to print
+star (*) symbol 5 times vertically.
+
+Expected Output:
+*
+*
+*
+*
+*
+
+---
+
+15.
+Write a Python program to print
+5 stars in a single line.
+
+Expected Output:
+* * * * *
+
+==========================================
+FINAL LEARNING GOALS
+==========================================
+
+After completing this assignment,
+students should understand:
+
+= for loop structure
+= range() usage
+= loop iteration
+= conditional checking
+= basic mathematical operations
+= string traversal
+= pattern printing
+= logic building
+
+==========================================
