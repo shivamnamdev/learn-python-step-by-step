@@ -1,0 +1,258 @@
+ ==========================================
+ MINI PROJECT ASSIGNMENT
+ Banking System Using OOP + Inheritance
+ ==========================================
+
+ ==========================================
+ OBJECTIVE
+ ==========================================
+
+Build a banking system where:
+- Different account types exist
+- Each account behaves differently
+- Code is reused using inheritance
+---
+
+ ==========================================
+ STEP 1: CREATE BASE CLASS
+ ==========================================
+
+ Create a parent class:
+ BankAccount
+
+ Requirements:
+ 1. Constructor should accept:
+       = customer name
+       = balance (default = 0)
+
+ 2. Create methods:
+       = deposit(amount)
+       = show_balance()
+
+ deposit():
+ should add amount into balance
+
+ show_balance():
+ should display customer name
+ and current balance
+---
+
+ ==========================================
+ STEP 2: SINGLE INHERITANCE
+ ==========================================
+
+ Create child class:
+ SavingsAccount
+
+ Inherit from:
+ BankAccount
+
+ Create method:
+ add_interest()
+
+ Requirements:
+ = Add 5% interest into balance
+ = Print interest amount added
+
+---
+
+ ==========================================
+ STEP 3: METHOD OVERRIDING
+ ==========================================
+
+ Create child class:
+ CurrentAccount
+
+Inherit from:
+ BankAccount
+
+Override:
+ withdraw(amount)
+
+ Rules:
+ = Allow withdrawal
+ = But overdraft limit should not
+   go below -500
+
+ If limit exceeded:
+ print:
+ "Overdraft limit exceeded!"
+
+Otherwise:
+ deduct amount from balance
+
+---
+
+ ==========================================
+ STEP 4: MULTILEVEL INHERITANCE
+ ==========================================
+
+ Create class:
+ PremiumSavings
+
+ Inherit from:
+ SavingsAccount
+
+ Create method:
+ add_bonus()
+
+ Requirements:
+ = Add bonus of 100
+ = Print bonus added
+
+---
+ ==========================================
+ STEP 5: HIERARCHICAL INHERITANCE
+ ==========================================
+
+ Create another class:
+ SalaryAccount
+
+ Inherit from:
+ BankAccount
+
+ Create method:
+ credit_salary(amount)
+
+ Requirements:
+ = Deposit salary amount
+ = Print:
+   "Salary credited"
+
+---
+ ==========================================
+ STEP 6: MULTIPLE INHERITANCE
+ ==========================================
+
+ Create class:
+ Loan
+
+ Create method:
+ take_loan(amount)
+
+ Print:
+ "Loan approved"
+
+
+Create class:
+ SmartAccount
+
+ Inherit from:
+ = SavingsAccount
+ = Loan
+
+ Create method:
+ features()
+
+ Print:
+ "Smart Account: Savings + Loan"
+---
+
+ ==========================================
+ STEP 7: TESTING
+ ==========================================
+
+ Create objects for:
+ = SavingsAccount
+ = CurrentAccount
+ = PremiumSavings
+ = SalaryAccount
+ = SmartAccount
+
+ Perform operations like:
+ = deposit
+ = withdraw
+ = add interest
+ = add bonus
+ = credit salary
+ = loan approval
+
+ Print balances after operations
+
+---
+ ==========================================
+ CONCEPT QUESTIONS
+ ==========================================
+
+ 1.
+ Which class is parent class
+ for all accounts?
+
+
+2.
+Which inheritance type is used in:
+SavingsAccount ?
+
+
+3.
+Which class demonstrates:
+Method Overriding?
+
+
+4.
+Why is PremiumSavings called:
+Multilevel Inheritance?
+
+
+5.
+Which class demonstrates:
+Multiple Inheritance?
+
+
+6.
+What is the benefit of inheritance
+in this project?
+
+
+7.
+Why do banks reuse base structure
+instead of rewriting everything?
+
+
+
+8.
+What is the role of constructor
+in BankAccount?
+
+
+9.
+What happens if SmartAccount
+inherits from two classes?
+
+
+10.
+Explain real-world use of:
+= inheritance
+= overriding
+= polymorphism
+
+---
+==========================================
+BONUS CHALLENGE
+==========================================
+
+Add:
+= Transaction History
+= PIN Verification
+= Transfer Money Feature
+= Minimum Balance Rule
+= Account Number Generator
+
+==========================================
+FINAL UNDERSTANDING
+==========================================
+
+This project teaches:
+= Classes
+= Objects
+= Constructor
+= Inheritance
+= Single Inheritance
+= Multilevel Inheritance
+= Hierarchical Inheritance
+= Multiple Inheritance
+= Method Overriding
+= Code Reusability
+= Real-world OOP Design
+
+==========================================
