@@ -1,0 +1,131 @@
+Mini Project Assignment: 
+Employee Payroll System
+
+Objective
+Build a system where:
+Employees have personal details
+
+
+Salary is protected (hidden properly)
+
+
+Bonus is calculated using global policy
+
+
+Company details are shared
+
+
+Internal logic is controlled
+
+---
+
+Step 1: Create Global Variable
+ Requirement:
+Create a global variable:
+
+bonus_percentage = 12
+
+---
+Step 2: Create Class 
+Employee
+
+🔹 Add Class Variable
+ Requirement:
+company_name = "InfotechLabs"
+
+
+🔹 Constructor (__init__)
+ Take parameters:
+name
+salary
+currency
+
+ Store as:
+name → public
+__salary → private
+_currency → protected
+
+
+---
+
+ 
+Step 3: Add Methods
+
+1️⃣ Public Method → 
+show_details()
+ Should print:
+name
+company
+currency
+ Do NOT print salary directly
+
+2️⃣ Private Method → 
+__calculate_bonus()
+ Logic:
+Calculate bonus using global variable
+Return bonus value
+
+3️⃣ Public Method → 
+generate_salary()
+ Should:
+Call private method
+Create local variable final_salary
+Print final salary with currency
+
+4️⃣ Protected Method → 
+_convert_currency()
+ Just print:
+“Currency conversion happening”
+ Call this method inside generate_salary()
+---
+
+ Step 4: Inheritance
+Create a child class:
+class Manager(Employee):
+
+Override Method
+ Override show_details()
+Call parent method using super()
+
+Add:
+print("Role: Manager")
+---
+
+ Step 5: Object Creation
+Create:
+e1 = Employee("Shivam", 50000, "INR")
+e2 = Manager("Rahul", 80000, "USD")
+
+ Call Methods
+e1.show_details()
+e1.generate_salary()
+
+e2.show_details()
+e2.generate_salary()
+---
+
+ Step 6: Testing (IMPORTANT)
+Try these and observe:
+print(e1.name)        # ✅ Should work
+print(e1._currency)   # ⚠️ Should work (but not recommended)
+print(e1.__salary)    # ❌ Should fail
+print(e1._Employee__salary)  # ⚠️ Name mangling
+
+
+ Expected Learning
+After this assignment, students should understand:
+✔ Why private variables are used
+✔ Why protected is just a convention
+✔ How global variable affects all objects
+✔ Difference between class vs instance variable
+✔ Use of local variable in calculation
+✔ Real use of inheritance
+
+---
+ Bonus Challenge (For Smart Students)
+ Add:
+Setter method to update salary safely
+Validation: salary should not be negative
+
+
+
